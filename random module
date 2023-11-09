@@ -1,0 +1,13 @@
+#imports random module
+import random
+"""
+Switch a student from a random seat on the left  (cols 1 to 15)
+to a random seat on the right (cols 16 to 30)
+Seat rows are 1 to 20
+"""
+rowNumL = random.randint(1, 20)  # 1 to 20 rows left 
+colNumL = random.randint(1, 15)  # 1 to 15  columns left
+rowNumR = random.randint(1, 20)  # 1 to 20 rows right
+colNumR = random.randint(16, 30) # 16 to 30 columns right
+
+print(f'Move from row {rowNumL} col {colNumL} to row {rowNumR} col {colNumR}')
