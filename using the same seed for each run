@@ -1,0 +1,10 @@
+#import random method 
+import random
+
+# Generates a unique seed  
+random.seed(15)
+ 
+#Generates a random integer between 1, 10
+print (random.randint(1, 10)) 
+print (random.randint(1, 10)) 
+print (random.randint(1, 10))
