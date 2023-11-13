@@ -1,0 +1,7 @@
+#order of evaluation
+#( )
+#* / % + 
+#<   <=   >   >=   ==  
+#not
+#and
+#or
